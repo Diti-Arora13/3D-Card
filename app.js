@@ -41,3 +41,11 @@ container.addEventListener("mouseleave", (e) => {
   sizes.style.transform = "translateZ(0px)";
   purchase.style.transform = "translateZ(0px)";
 });
+
+// overlay cross funtionality 
+const cross = document.querySelector(".cross");
+const mediaWarning = document.querySelector(".media-warning");
+
+cross.addEventListener("click", () => {
+  mediaWarning.style.visibility = "hidden"
+})
